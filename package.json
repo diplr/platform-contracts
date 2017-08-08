@@ -1,0 +1,12 @@
+{
+  "name": "diplr-platform-contracts",
+  "version": "0.0.1",
+  "description": "Contracts for the Diplr platform",
+  "author": "Quinten De Swaef",
+  "license": "MIT",
+  "devDependencies": {
+    "ethereumjs-testrpc": "^4.0.1",
+    "truffle": "^3.4.7",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
