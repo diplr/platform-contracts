@@ -1,4 +1,4 @@
-Diplr Platform Contracts
+Diplr Platform Contracts [![Build Status](https://travis-ci.org/diplr/platform-contracts.svg?branch=master)](https://travis-ci.org/diplr/platform-contracts)
 ===
 
 All public diplr platform smart contracts are maintained in this repository. 
