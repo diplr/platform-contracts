@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "ethereumjs-testrpc": "^4.0.1",
-    "truffle": "^3.4.7",
+    "truffle": "^3.4.9",
     "truffle-hdwallet-provider": "0.0.3"
   }
 }
