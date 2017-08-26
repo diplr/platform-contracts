@@ -25,6 +25,7 @@ module.exports = {
 
   networks: {
     development: {
+      network_id: '*',
       host: "localhost",
       port: 8545
     },
@@ -39,7 +40,7 @@ module.exports = {
     },
     ropsten: {
       network_id: '3',
-      host: "https://ropsten.infura.io/",
+      host: "https://ropsten.infura.io/" + getSecret(),
       provider: new HDWalletProvider(getMnemonic('ropsten'), "https://ropsten.infura.io/" + getSecret())
     },
     rinkeby: {
