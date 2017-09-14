@@ -1,5 +1,5 @@
-var Registry = artifacts.require('./registry/DiplrRegistry.sol');
-
+const Registry = artifacts.require('./registry/DiplrRegistry.sol');
+const expect = require('chai').expect;
 contract('DiplrRegistry', function (accounts) {
     console.log(accounts[0]);
     it('should not be possible to add a context as non-owner', function () {

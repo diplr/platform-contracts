@@ -1,4 +1,6 @@
-pragma solidity ^0.4.14;
+pragma solidity ^0.4.15;
+
+import '../ownership/Ownable.sol';
 
 
 contract IPRegistry {
